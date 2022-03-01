@@ -11,7 +11,7 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
-    . In addition, include a comment on the preceding line stating. In addition
+    // In addition, include a comment on the preceding line stating. In addition
     'add':      function(a,b) { return +a + +b },
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
